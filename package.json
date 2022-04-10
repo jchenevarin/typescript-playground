@@ -1,0 +1,25 @@
+{
+  "name": "ts-presentation",
+  "version": "1.0.0",
+  "description": "ts notes & minimal setup",
+  "main": "index.js",
+  "directories": {
+    "test": "src"
+  },
+  "scripts": {
+    "test": "tsc && jest",
+    "test-watch": "start tsc --watch && start jest --watchAll"
+  },
+  "author": "jch",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5"
+  },
+  "jest": {
+    "verbose": true,
+    "rootDir": "out"
+  },
+  "dependencies": {
+  }
+}
