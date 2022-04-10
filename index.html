@@ -20,76 +20,10 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/reveal.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/theme/white.css">
-
 </head>
 
 <body>
-
-  <div class="reveal">
-    <div class="slides">
-      <section>
-        <img src="/assets/img/ts-logo.png">
-
-      </section>
-      <section data-markdown data-separator="^-nsp">
-        <textarea data-template>
-          # Typescript presentation
-
-          Ok let's write a 15min presentation to get started on typescript
-          - Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
-          - Item 2 <!-- .element: class="fragment" data-fragment-index="2" -->
-
-          -nsp
-
-          <!-- .slide: data-background="#ff0000" -->
-          # Let's get started prerequisites
-
-          ```
-          npm install -g typescript
-          tsc --init
-          ```
-
-        </textarea>
-      </section>
-      <section>
-        <h1>A react example</h1>
-
-        <div id="react-example"></div>
-
-      </section>
-      
-    </div>
-  </div>
-
-	<script crossorigin src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/js/reveal.min.js"></script>
-	<script crossorigin src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/markdown/marked.js"></script>
-	<script crossorigin src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/markdown/markdown.js"></script>
-
-  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-
-  <script>
-    Reveal.initialize({
-      plugins: [ RevealMarkdown ],
-      markdown: {
-        smartypants: true
-      }
-    });
-  </script>
-
-  <script>
-
-    const Greetings = (props) => React.createElement('h1', null, 'Greetings, ' + props.name + '!');
-    window.onload = () => {
-      console.log('loaded');
-      ReactDOM.render(
-          React.createElement(Greetings, { name : 'Jeremie' }),
-          document.getElementById('react-example')
-      );
-    };
-  </script>
+  <h1>This is a test</h1>>
 </body>
 </html>
 
